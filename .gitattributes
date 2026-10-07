@@ -1,0 +1,2 @@
+# 保证 JSON 以 LF 提交：worker 按字节比对内容，CRLF 会导致同步判断不一致。
+bangumi-sensitive-words.json text eol=lf
